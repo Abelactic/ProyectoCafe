@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-image: url(img/BCK.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.menu {
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+}
+
+.menu .navbar ul li a:hover {
+   color: darkorchid;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+ 
+
+.header-content {
+    display: flex;
+
+}
+
+.content {
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1 {
+  color: black;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 177, 255, 0,3);
+    border: 1px solid #aab1ff;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.btn-1 hover {
+    background-color: #aab1ff;
+}
+
+h1{
+
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+
+.products .contorno{
+
+    display:flex; 
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.products .contorno .dentro-contorno{
+
+    flex: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.5);
+    border-radius:.5rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    position: relative;
+
+}
+
+.products .contorno .dentro-contorno .image{
+
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+
+}
+
+.products .contorno .dentro-contorno .image .name-pr{
+
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    float: unset;
+}
+
+.products .contorno .dentro-contorno .image .btn-2{
+
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 120px;
+    border: 10px solid #8b6a2e; /*anchura, estilo y color borde*/
+    padding-right: 150x; /*espacio alrededor texto*/
+    background-color: #8b6a2e; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 50px; /*bordes redondos*/
+    text-align: center;
+
+}
+
+.products .contorno .dentro-contorno .image .btn-2:hover{
+    height: 50px;
+    width: 120px;
+    border: 10px solid #c9b288; 
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #c9b288;
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+    background-color: #c9b288;
+}
+
+.products .contorno .dentro-contorno .image img{
+
+    height: 250px;
+    width: 250px;
+
+}
+
+.products .contorno .dentro-contorno:hover .image img{
+
+    transform: scale(1.1);
+
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-image: url(img/BCK.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.menu {
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+}
+
+.menu .navbar ul li a:hover {
+   color: darkorchid;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+ 
+
+.header-content {
+    display: flex;
+
+}
+
+.content {
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1 {
+  color: black;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 177, 255, 0,3);
+    border: 1px solid #aab1ff;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.btn-1 hover {
+    background-color: #aab1ff;
+}
+
+.services {
+   padding: 10 px 0px;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+
+}
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0,3);
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: blue;
+    font-size: 10px;
+}
+
+.porfolio{
+  padding: 50px 0px;
+  text-align: center;
+  color: #0e0e0e;
+
+}
+
+.porfolios h2 {
+    font-size: 33px;
+
+}
+
+.porfolio{
+    display: flex;
+    align-items: center;
+}
+
+.porfolio img {
+    width: 150px;
+
+
+}
+
+.porfolio-1 {
+    text-align: left;
+    margin-left: 80px;
+
+}
+
+.porfolio-1 p {
+    font-size: 15px;
+    color: #0e0e0e;
+    margin-bottom: 25px;
+}
+
+.porfolio-2 {
+    text-align: left;
+    margin-right: 80px;
+}
+.porfolio-2 p {
+    font-size: 15px;
+    color: #0e0e0e;
+    margin-bottom: 25px;
+}
+
+
+
+
