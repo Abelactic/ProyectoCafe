@@ -5,7 +5,7 @@
  */
 package modelo;
 
-
+// Test changes by Poringo
 public class Clientes {
     int idclientes;
     String nombre_clientes, apellido_clientes, correo_clientes, password_clientes, numero_clientes;
